@@ -1,0 +1,146 @@
+*{
+     /* zeramos tudo as margins e os padding */
+    margin: 0;
+    padding: 0;
+}
+#caixa{
+    /* o ID e quando nos seleciona só um elemento do html  */
+     /* aqui no ID caixas nos colocamos a distancia que a margin vai ter da tela, assim dando um estilo de "caixa" */
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+header{
+     /* aqui iremos mexer na header, no caso mudamos a cor de fundo */
+        background-color:  #1867a9;
+
+}
+#etec{
+    /* o ID e quando nos seleciona só um elemento do html  */
+    /* nesse id nos só iremos centralizar o coneúdo */
+   text-align: center;
+}
+#link{
+    /* aqui vamos mexer no ID link, que no caso aqui colocamos para o conteúdo ficar no centro */
+    text-align: center;
+}
+a{
+     /* vamos mexer nos links em si os botões, mudamos a font, tamanho e tiramos aquela linha de baixo */
+
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 9px 12px;
+    
+}
+
+a:link, a:visited{
+     /* colocamos a cor que ele vai ficar quando nós visitar */
+    
+    color: white;
+}
+header{
+    /* aqui mudamos a cor de fundo do cabeçalho */
+        background-color:  #1867a9;
+
+}
+#etec{
+    /* aqui centralizamos a div */
+   text-align: center;
+}
+
+a{
+    /* aqui nos estilizou os links mudando a fonte tirando aquela linha que fica de baixo e dando um espaçamnto entre os links */
+    
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 9px 12px;
+    
+}
+
+a:link, a:visited{
+     /* colocamos a cor que ele vai ficar quando nós visitar */
+    color: white;
+}
+a:hover{
+      /* aqui é aquela "animação" de quando nos coloca o ponteiro do mouse em cima do botão, que envolta dele e colocamos a cor */
+    color: white;
+    background-color: #00BBFF;
+    
+}
+a:hover{
+      /* aqui é aquela "animação" de quando nos coloca o ponteiro do mouse em cima do botão, que envolta dele e colocamos a cor */
+    color: white;
+    background-color: #00BBFF;
+    
+}
+#conteudo{
+    /* nesse id nos estilizou ele inteiro, tamanho, fonte, lugar , etc */
+    text-align: justify;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    text-align: center   
+}
+body{
+     /* aqui nos iremos mexer no "corpo" do site, que nessa ocasião so mudamos a cor de fundo */
+    background-color: #dedee9;
+}
+#enem{
+    /* nesse id nos mudamos a cor de fundo */
+    background-color: #c0c0c0;
+}
+#escola{
+    /* nesse id mudamos a cor e a font da letra */
+    font-family: Arial, Helvetica, sans-serif;
+    color:  #00BBFF;
+}
+#conteudo20{
+    /* nesse id nos estilizou ele na cor de fundo e tamanho da margim */
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    line-height: 1.5;
+}
+#vantagens{
+    /* nesse id nos estilizou a cor, fonte e centralizou */
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #436EEE;
+}
+#lista{
+    /* estilizamos as margins */
+    margin-left: 30px;
+    padding: 30px;
+}
+.negrito{
+    /* CLASS é quando nós seleciona variós elementos do html */
+    /* nessa class toda letra estará em negrito */
+    font-weight: bold;
+}
+#conteudo30{
+    /* nessa id nos estilizou ele as margins e as distancia das bordas, a cor de fundo e a fonte */
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+#experiencias{
+    /* nessa id mudamos a fonte */
+    font-family: Arial, Helvetica, sans-serif;
+}
+#pessoas{
+    /* aqui nesse id nos mudou a cor da letra e centralizamos */
+    text-align: center;
+    color: #1867a9;
+}
+footer{
+    /* mudamos a cor do rodapé */
+    background-color: #cdc9c9;
+}
+#rodape{
+    /* nesse id centralizamos */
+    text-align: center;
+}

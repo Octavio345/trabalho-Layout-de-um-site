@@ -1,0 +1,120 @@
+*{ 
+    /* zeramos tudo as margins e os padding */
+    margin: 0;
+    padding: 0;
+}
+header{
+    /* aqui iremos mexer na header, no caso mudamos a cor de fundo */
+    background-color:  #1867a9;
+
+}
+#etec{
+    /* o ID e quando nos seleciona só um elemento do html  */
+    /* aqui vamos mexer no ID etec, que no caso aqui colocamos para o conteúdo ficar no centro */
+text-align: center;
+}
+#link{
+    /* aqui vamos mexer no ID link, que no caso aqui colocamos para o conteúdo ficar no centro */
+text-align: center;
+}
+a{
+    /* vamos mexer nos links em si os botões, mudamos a font, tamanho e tiramos aquela linha de baixo */
+
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+padding: 9px 12px;
+
+}
+
+a:link, a:visited{
+    /* colocamos a cor que ele vai ficar quando nós visitar */
+color: white;
+}
+a:hover{
+    /* aqui é aquela "animação" de quando nos coloca o ponteiro do mouse em cima do botão, que envolta dele e colocamos a cor */
+color: white;
+background-color: #00BBFF;
+
+}
+body{
+    /* aqui nos iremos mexer no "corpo" do site, que nessa ocasião so mudamos a cor de fundo */
+    background-color: #dedee9;
+}
+#caixas{
+    /* aqui no ID caixas nos colocamos a distancia que a margin vai ter da tela, assim dando um estilo de "caixa" */
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#login{
+    /* aqui nesse ID nos mexemos nas configurões do botão que criamos */
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    text-align: center   
+  
+}
+#contato{
+    /* nesse ID nós estilizou o contato no caso o titulo */
+    text-align: center;
+    color: #1867a9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+}
+.p{
+    /* CLASS é quando nós seleciona variós elementos do html */
+    /* aqui nessa class é do paragrafo */
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#form{
+    /* no ID do forms nos estilizou ele aumentando tamanho de letra, centralizando ele, etc */
+   margin-left: 50px;
+   color: #1867a9;
+   font-family: Arial, Helvetica, sans-serif;
+   font-family: 700;
+   background-color: white;
+   padding-left: 20px;
+   text-align: center;
+  
+}
+.caixa_texto{
+    /* nessa class nos estilizou a caixa de texto do forms, aumento o tamanho, etc */
+    color: #1867a9 1px;
+    text-align: center;
+    width: 300px;
+}
+#caixa-texto-assunto{
+    /* esse é para estilizar fora da caixa */
+    width: 500px;
+    height: 170px;
+    
+    border: #1867a9 solid 1px;
+}
+
+#mapa{
+    /* esse Id é para centralizar a localização */
+    text-align: center;
+}
+footer{
+    /* muda o fundo do rodapé */
+    background-color: #cdc9c9;
+}
+#rodape{
+    /* nesee id nos centraliza o conteúdo */
+    text-align: center;
+}
+
+#butão{
+    /* Esse Id nos configura o botão, editando o tamanho dele, mudando a cor, estilizando, etec */
+    width: 100px;
+    height: 50px;
+    background-color: #1867a9;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+    

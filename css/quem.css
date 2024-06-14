@@ -1,0 +1,127 @@
+*{
+     /* zeramos tudo as margins e os padding */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+     /* aqui iremos mexer na header, no caso mudamos a cor de fundo */
+    background-color: #1867a9;
+}
+
+#etec {
+     /* o ID e quando nos seleciona só um elemento do html  */
+    /* nesse id nos só iremos centralizar o coneúdo */
+    text-align: center;
+}
+
+#link {
+    /* aqui vamos mexer no ID link, que no caso aqui colocamos para o conteúdo ficar no centro */
+    text-align: center;
+}
+
+a {  /* vamos mexer nos links em si os botões, mudamos a font, tamanho e tiramos aquela linha de baixo */
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 9px 12px;
+}
+
+a:link, a:visited {
+    /* colocamos a cor que ele vai ficar quando nós visitar */
+    color: white;
+}
+
+#link a:hover {
+     /* aqui é aquela "animação" de quando nos coloca o ponteiro do mouse em cima do botão, que envolta dele e colocamos a cor */
+    color: white;
+    background-color: #00BBFF;
+}
+
+body {
+     /* aqui nos iremos mexer no "corpo" do site, que nessa ocasião so mudamos a cor de fundo */
+    background-color: #dedee9;
+}
+
+#caixas {
+     /* aqui no ID caixas nos colocamos a distancia que a margin vai ter da tela, assim dando um estilo de "caixa" */
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#conteudo {
+      /* nesse id nos estilizou ele inteiro, distancia da margem, fonte, etc */
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+#polivalente {
+    /* nessa id centralizamos  */
+    text-align: center;
+}
+
+#Historia {
+    /* nesse id estilizamos a font do texto a cor e centralizamos */
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1867a9;
+}
+
+.p {
+     /* CLASS é quando nós seleciona variós elementos do html */
+     /* nessa class estilizamos os textos */
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#refe {
+    /* aqui nos mudamos a cor e a fonte */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00BBFF;
+}
+
+.tabela {
+    /* aqui nesse id nos mudamos a fonte da letra, o tamanho, a cor de fundo e a cor */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    background-color: #1867a9;
+    color: white;
+}
+
+.centralizar {
+    /* aqui nos centralizou */
+    text-align: center;
+}
+
+table {
+    /* centralizamos outra parte da tabela em si */
+    margin: auto;
+    
+    border: 30;
+}
+
+.nome_tabela {
+    /* estilizamos oque estava escrito na tabela */
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1867a9;
+}
+
+.dentro_tabela {
+    /*estilizamos oque esta dentro da tabela  */
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+footer {
+    /* estilamos o footer, mudamos a cor do fundo */
+    background-color: #cdc9c9;
+}
+
+#rodape {
+    /* centralizamos essa id */
+    text-align: center;
+}
